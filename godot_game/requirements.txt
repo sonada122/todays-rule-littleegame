@@ -7,5 +7,6 @@ requests>=2.28
 # 分享卡片生成（share_card.py）
 Pillow>=9.0
 
+fontTools>=4.62
 # 说明：server/app.py 后端仅使用 Python 标准库（http.server + sqlite3），
 #       无需任何第三方依赖。
