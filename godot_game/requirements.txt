@@ -1,0 +1,11 @@
+# 《今天的规则》工具链依赖
+# 客户端需另外安装 Godot 4.2+（非 pip 依赖）
+
+# LLM 调用（llm_client.py / mock_llm_server.py）
+requests>=2.28
+
+# 分享卡片生成（share_card.py）
+Pillow>=9.0
+
+# 说明：server/app.py 后端仅使用 Python 标准库（http.server + sqlite3），
+#       无需任何第三方依赖。

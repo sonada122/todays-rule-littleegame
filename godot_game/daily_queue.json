@@ -1,0 +1,356 @@
+{
+  "seed": 20261005,
+  "days": 14,
+  "items": [
+    {
+      "map": [
+        "       ",
+        "     @ ",
+        "   #   ",
+        "       ",
+        " #     ",
+        " $  .# ",
+        "       "
+      ],
+      "params": {
+        "player_ignores_walls": false,
+        "player_can_pull": false,
+        "player_swap_with_wall": false,
+        "player_push_distance": 3,
+        "box_slides": true
+      },
+      "id": 1,
+      "day": 1,
+      "rule_id": "ice+push3",
+      "name": "滑行·推力x3",
+      "desc": "你一次可以推动箱子最多 3 格；箱子一旦被推动就滑行到撞上障碍才停。把每个箱子推到目标点上。",
+      "optimal_moves": 10,
+      "difficulty": "medium"
+    },
+    {
+      "map": [
+        "       ",
+        "   # $ ",
+        " #     ",
+        "       ",
+        "   # . ",
+        "  @  # ",
+        "       "
+      ],
+      "params": {
+        "player_ignores_walls": false,
+        "player_can_pull": false,
+        "player_swap_with_wall": false,
+        "player_push_distance": 4,
+        "box_slides": true
+      },
+      "id": 2,
+      "day": 2,
+      "rule_id": "ice+push4",
+      "name": "滑行·推力x4",
+      "desc": "你一次可以推动箱子最多 4 格；箱子一旦被推动就滑行到撞上障碍才停。把每个箱子推到目标点上。",
+      "optimal_moves": 9,
+      "difficulty": "medium"
+    },
+    {
+      "map": [
+        "       ",
+        "  @# # ",
+        "   .   ",
+        "  #$   ",
+        "   #   ",
+        "       ",
+        "       "
+      ],
+      "params": {
+        "player_ignores_walls": true,
+        "player_can_pull": false,
+        "player_swap_with_wall": true,
+        "player_push_distance": 1,
+        "box_slides": false
+      },
+      "id": 3,
+      "day": 3,
+      "rule_id": "ghost+swap",
+      "name": "穿墙·换位",
+      "desc": "你可以自由穿过墙壁；朝内侧的墙移动时会与它交换位置。把每个箱子推到目标点上。",
+      "optimal_moves": 5,
+      "difficulty": "easy"
+    },
+    {
+      "map": [
+        "       ",
+        "       ",
+        " #@#   ",
+        "   $   ",
+        "  #.#. ",
+        "   $   ",
+        "       "
+      ],
+      "params": {
+        "player_ignores_walls": false,
+        "player_can_pull": true,
+        "player_swap_with_wall": false,
+        "player_push_distance": 3,
+        "box_slides": false
+      },
+      "id": 4,
+      "day": 4,
+      "rule_id": "pull+push3",
+      "name": "拉箱·推力x3",
+      "desc": "当你离开一个相邻的箱子时，它会跟你走一格；你一次可以推动箱子最多 3 格。把每个箱子推到目标点上。",
+      "optimal_moves": 12,
+      "difficulty": "medium"
+    },
+    {
+      "map": [
+        "       ",
+        "       ",
+        "  #    ",
+        " $## . ",
+        " .  $  ",
+        "  @#   ",
+        "       "
+      ],
+      "params": {
+        "player_ignores_walls": false,
+        "player_can_pull": true,
+        "player_swap_with_wall": true,
+        "player_push_distance": 5,
+        "box_slides": true
+      },
+      "id": 5,
+      "day": 5,
+      "rule_id": "pull+swap+ice+push5",
+      "name": "拉箱·换位·滑行·推力x5",
+      "desc": "当你离开一个相邻的箱子时，它会跟你走一格；朝内侧的墙移动时会与它交换位置；你一次可以推动箱子最多 5 格；箱子一旦被推动就滑行到撞上障碍才停。把每个箱子推到目标点上。",
+      "optimal_moves": 12,
+      "difficulty": "medium"
+    },
+    {
+      "map": [
+        "       ",
+        " $     ",
+        "       ",
+        "       ",
+        "     # ",
+        "    @. ",
+        "       "
+      ],
+      "params": {
+        "player_ignores_walls": true,
+        "player_can_pull": false,
+        "player_swap_with_wall": false,
+        "player_push_distance": 4,
+        "box_slides": false
+      },
+      "id": 6,
+      "day": 6,
+      "rule_id": "ghost+push4",
+      "name": "穿墙·推力x4",
+      "desc": "你可以自由穿过墙壁；你一次可以推动箱子最多 4 格。把每个箱子推到目标点上。",
+      "optimal_moves": 15,
+      "difficulty": "hard"
+    },
+    {
+      "map": [
+        "       ",
+        "       ",
+        " .  #  ",
+        "    .  ",
+        "    $  ",
+        "    $@ ",
+        "       "
+      ],
+      "params": {
+        "player_ignores_walls": true,
+        "player_can_pull": false,
+        "player_swap_with_wall": false,
+        "player_push_distance": 3,
+        "box_slides": false
+      },
+      "id": 7,
+      "day": 7,
+      "rule_id": "ghost+push3",
+      "name": "穿墙·推力x3",
+      "desc": "你可以自由穿过墙壁；你一次可以推动箱子最多 3 格。把每个箱子推到目标点上。",
+      "optimal_moves": 8,
+      "difficulty": "medium"
+    },
+    {
+      "map": [
+        "       ",
+        "  .    ",
+        "    $# ",
+        "       ",
+        "   $   ",
+        "   . @ ",
+        "       "
+      ],
+      "params": {
+        "player_ignores_walls": true,
+        "player_can_pull": true,
+        "player_swap_with_wall": true,
+        "player_push_distance": 3,
+        "box_slides": false
+      },
+      "id": 8,
+      "day": 8,
+      "rule_id": "ghost+pull+swap+push3",
+      "name": "穿墙·拉箱·换位·推力x3",
+      "desc": "你可以自由穿过墙壁；当你离开一个相邻的箱子时，它会跟你走一格；朝内侧的墙移动时会与它交换位置；你一次可以推动箱子最多 3 格。把每个箱子推到目标点上。",
+      "optimal_moves": 12,
+      "difficulty": "medium"
+    },
+    {
+      "map": [
+        "       ",
+        "       ",
+        "     @ ",
+        "  #    ",
+        " # $$# ",
+        "  ..   ",
+        "       "
+      ],
+      "params": {
+        "player_ignores_walls": true,
+        "player_can_pull": true,
+        "player_swap_with_wall": false,
+        "player_push_distance": 1,
+        "box_slides": true
+      },
+      "id": 9,
+      "day": 9,
+      "rule_id": "ghost+pull+ice",
+      "name": "穿墙·拉箱·滑行",
+      "desc": "你可以自由穿过墙壁；当你离开一个相邻的箱子时，它会跟你走一格；箱子一旦被推动就滑行到撞上障碍才停。把每个箱子推到目标点上。",
+      "optimal_moves": 9,
+      "difficulty": "medium"
+    },
+    {
+      "map": [
+        "       ",
+        " @     ",
+        " $ #   ",
+        "       ",
+        " ..$#  ",
+        " ##    ",
+        "       "
+      ],
+      "params": {
+        "player_ignores_walls": true,
+        "player_can_pull": false,
+        "player_swap_with_wall": true,
+        "player_push_distance": 2,
+        "box_slides": false
+      },
+      "id": 10,
+      "day": 10,
+      "rule_id": "ghost+swap+push2",
+      "name": "穿墙·换位·推力x2",
+      "desc": "你可以自由穿过墙壁；朝内侧的墙移动时会与它交换位置；你一次可以推动箱子最多 2 格。把每个箱子推到目标点上。",
+      "optimal_moves": 7,
+      "difficulty": "medium"
+    },
+    {
+      "map": [
+        "       ",
+        " @ .   ",
+        "    $  ",
+        " . #   ",
+        " $     ",
+        "       ",
+        "       "
+      ],
+      "params": {
+        "player_ignores_walls": true,
+        "player_can_pull": true,
+        "player_swap_with_wall": true,
+        "player_push_distance": 5,
+        "box_slides": false
+      },
+      "id": 11,
+      "day": 11,
+      "rule_id": "ghost+pull+swap+push5",
+      "name": "穿墙·拉箱·换位·推力x5",
+      "desc": "你可以自由穿过墙壁；当你离开一个相邻的箱子时，它会跟你走一格；朝内侧的墙移动时会与它交换位置；你一次可以推动箱子最多 5 格。把每个箱子推到目标点上。",
+      "optimal_moves": 9,
+      "difficulty": "medium"
+    },
+    {
+      "map": [
+        "       ",
+        " .  #  ",
+        "  $ $  ",
+        " #  @  ",
+        "    #. ",
+        " #     ",
+        "       "
+      ],
+      "params": {
+        "player_ignores_walls": false,
+        "player_can_pull": true,
+        "player_swap_with_wall": false,
+        "player_push_distance": 5,
+        "box_slides": true
+      },
+      "id": 12,
+      "day": 12,
+      "rule_id": "pull+ice+push5",
+      "name": "拉箱·滑行·推力x5",
+      "desc": "当你离开一个相邻的箱子时，它会跟你走一格；你一次可以推动箱子最多 5 格；箱子一旦被推动就滑行到撞上障碍才停。把每个箱子推到目标点上。",
+      "optimal_moves": 18,
+      "difficulty": "hard"
+    },
+    {
+      "map": [
+        "       ",
+        "  $    ",
+        "     # ",
+        " .  @  ",
+        " #   # ",
+        " .  $  ",
+        "       "
+      ],
+      "params": {
+        "player_ignores_walls": false,
+        "player_can_pull": true,
+        "player_swap_with_wall": true,
+        "player_push_distance": 1,
+        "box_slides": false
+      },
+      "id": 13,
+      "day": 13,
+      "rule_id": "pull+swap",
+      "name": "拉箱·换位",
+      "desc": "当你离开一个相邻的箱子时，它会跟你走一格；朝内侧的墙移动时会与它交换位置。把每个箱子推到目标点上。",
+      "optimal_moves": 14,
+      "difficulty": "hard"
+    },
+    {
+      "map": [
+        "       ",
+        "  $  @ ",
+        "    $  ",
+        "  #    ",
+        "     . ",
+        " # .   ",
+        "       "
+      ],
+      "params": {
+        "player_ignores_walls": false,
+        "player_can_pull": true,
+        "player_swap_with_wall": false,
+        "player_push_distance": 4,
+        "box_slides": false
+      },
+      "id": 14,
+      "day": 14,
+      "rule_id": "pull+push4",
+      "name": "拉箱·推力x4",
+      "desc": "当你离开一个相邻的箱子时，它会跟你走一格；你一次可以推动箱子最多 4 格。把每个箱子推到目标点上。",
+      "optimal_moves": 14,
+      "difficulty": "hard"
+    }
+  ]
+}
