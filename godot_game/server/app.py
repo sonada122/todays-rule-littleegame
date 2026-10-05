@@ -214,7 +214,7 @@ class Handler(BaseHTTPRequestHandler):
 
 def main():
     ap = argparse.ArgumentParser()
-    ap.add_argument("--port", type=int, default=8080)
+    ap.add_argument("--port", type=int, default=int(os.environ.get("PORT", 8080)))
     ap.add_argument("--queue", default=QUEUE_PATH)
     args = ap.parse_args()
     Handler.queue = load_queue()
